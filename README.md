@@ -16,4 +16,4 @@ The solution use an ATMAGA 328 microconteroller for the management of data acqui
 - 16*2 LCD (Data display)
 - SIM 808 (Data transmission)
 
-Custom library's were written using the datasheet and using existing codes to handle the modules. Multiple communication protocols were used when dealing with these divices such as parallel communication for LCD display, I2C for HMC5883L and BMP180 and UART for SIM 808. The solution utilizes the A/D conversion of ATMEGA 328 to read the water level of the water level sensors also the solution uses external interrupts and timer interrupts to measure the wind speed using the hall effect sensor.
+Custom library's were written using the datasheet and using existing codes to handle the modules. Multiple communication protocols were used when dealing with these devices such as parallel communication for LCD display, I2C for HMC5883L and BMP180 and UART for SIM 808. The solution utilizes the A/D conversion of ATMEGA 328 to read the water level of the water level sensors also the solution uses external interrupts and timer interrupts to measure the wind speed using the hall effect sensor.
